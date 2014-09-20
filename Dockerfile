@@ -28,7 +28,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install nodejs
 
 #SETUP HUBRO
 COPY hubro /root/hubro
-COPY ./scripts/start_hubro.sh /etc/my_init.d/start_hubro.sh
+COPY ./scripts/start_hubro_docker.sh /etc/my_init.d/start_hubro.sh
 RUN \
     cd /root/hubro && \
     npm install
