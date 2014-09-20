@@ -14,4 +14,4 @@ module.exports = (robot) ->
     msg.send "(ohcrap)"
 
   robot.respond /crucify him/i, (msg) ->
-    s = sp '/home/thetaiter/Development/git/hubro/hubro/bin/jesus.sh'
+    s = sp '/root/hubro/bin/jesus.sh'
